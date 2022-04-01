@@ -13,8 +13,6 @@ let invitati = [
   "Giacomo",
 ];
 
-let i = 0;
-
 let userName = prompt("Digita il tuo nome (con iniziale maiuscola):");
 
 if (invitati.includes(userName)) {
